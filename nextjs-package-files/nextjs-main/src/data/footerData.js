@@ -4,7 +4,7 @@ import { contact } from "./contactData";
 
 const footerData = {
   ...contact,
-  link: "Halpes",
+  link: "Kiosk Solidário",
   copyrightYear: new Date().getFullYear(),
   about:
     "Lorem ipsum dolor sit ame consect etur pisicing elit sed do eiusmod tempor incididunt ut labore.",
@@ -36,42 +36,42 @@ const footerData = {
     {
       id: 1,
       href: "#",
-      title: "Donate"
+      title: "Doar agora!"
     },
     {
       id: 2,
       href: "#",
-      title: "Campaigns"
+      title: "Campanhas"
     },
     {
       id: 3,
       href: "#",
-      title: "Fundraise"
+      title: "Missão Sorriso"
     },
     {
       id: 4,
       href: "#",
-      title: "Volunteers"
+      title: "Voluntários"
     },
     {
       id: 5,
       href: "#",
-      title: "Sponsors"
+      title: "Patrocinadores"
     },
     {
       id: 6,
       href: "#",
-      title: "Fundraising"
+      title: "Angariação de fundos"
     },
     {
       id: 7,
       href: "#",
-      title: "Contact"
+      title: "Contactos"
     },
     {
       id: 8,
       href: "#",
-      title: "Help"
+      title: "Ajuda"
     },
     {
       id: 9,

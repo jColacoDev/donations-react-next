@@ -7,8 +7,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact">
-      <PageHeader pageTitle="Contact" />
+    <Layout pageTitle="Contactos">
+      <PageHeader pageTitle="Contactos" />
       <ContactPage />
       <GoogleMap />
       <BecomeVolunteer />

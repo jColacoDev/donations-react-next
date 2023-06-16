@@ -20,7 +20,7 @@ const JoinOne = ({ className = "" }) => {
                 education for children
               </h2>
               <a href="#" className="join-one__btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Saber Mais
               </a>
             </div>
           </Col>

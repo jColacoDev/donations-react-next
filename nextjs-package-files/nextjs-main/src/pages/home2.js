@@ -10,11 +10,10 @@ import MainSliderTwo from "@/components/MainSliderTwo/MainSliderTwo";
 import NewsTwo from "@/components/NewsTwo/NewsTwo";
 import Volunteer from "@/components/Volunteer/Volunteer";
 import WeInspire from "@/components/WeInspire/WeInspire";
-import React from "react";
 
 const Home2 = () => {
   return (
-    <Layout pageTitle="Home">
+    <Layout pageTitle="Início">
       <MainSliderTwo />
       <Introduction />
       <FourIcon />

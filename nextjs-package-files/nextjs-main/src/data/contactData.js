@@ -1,9 +1,9 @@
 import image from "@/images/resources/contact-page-img-1.jpg";
 
 export const contact = {
-  tel: "92 666 888 0000",
-  email: "needhelp@company.com",
-  officeAddress: "80 broklyn golden street",
+  tel: "210 16 16 16",
+  email: "missao.sorriso@sonaemc.com",
+  officeAddress: "Via Norte Espido 4470-177 MAIA",
 };
 
 const contactData = {

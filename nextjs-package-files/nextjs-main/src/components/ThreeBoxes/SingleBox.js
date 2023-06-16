@@ -23,7 +23,7 @@ const SingleBox = ({ singleBox }) => {
               adipiscing elit. There are not many passages of ipsum.
             </p>
             <a href="#" className="three-boxes__btn">
-              <i className="fa fa-heart"></i>Donate{" "}
+              <i className="fa fa-heart"></i>Doar{" "}
             </a>
           </div>
         </div>

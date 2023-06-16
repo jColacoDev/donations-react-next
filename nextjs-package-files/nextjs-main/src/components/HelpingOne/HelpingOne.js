@@ -68,7 +68,7 @@ const HelpingOne = () => {
                       <input
                         type="text"
                         name="amount"
-                        placeholder="Enter Donation Amount"
+                        placeholder="Adicionar montante"
                       />
                       <div className="helping-one__right-dolar-icon">
                         <span>$</span>
@@ -76,26 +76,26 @@ const HelpingOne = () => {
                     </div>
                   </Col>
                   <Col lg={6}>
-                    <input type="text" name="name" placeholder="Your Name" />
+                    <input type="text" name="name" placeholder="Nome" />
                   </Col>
                   <Col lg={6}>
                     <input
                       type="email"
                       name="email"
-                      placeholder="Email Address"
+                      placeholder="Email"
                     />
                   </Col>
                   <Col lg={12}>
                     <input
                       type="text"
                       name="phone"
-                      placeholder="Phone Number"
+                      placeholder="Telefone"
                     />
                   </Col>
                   <Col lg={12}>
                     <textarea
                       name="message"
-                      placeholder="Write Message"
+                      placeholder="Mensagem"
                     ></textarea>
                   </Col>
                   <Col lg={12}>
@@ -103,7 +103,7 @@ const HelpingOne = () => {
                       type="submit"
                       className="thm-btn helping-one__right-btn"
                     >
-                      <i className="fas fa-arrow-circle-right"></i>Continue Now
+                      <i className="fas fa-arrow-circle-right"></i>Continuar
                     </button>
                   </Col>
                 </Row>

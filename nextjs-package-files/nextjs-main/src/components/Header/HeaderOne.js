@@ -89,13 +89,13 @@ const HeaderOne = () => {
                     <span className="icon-chat"></span>
                   </div>
                   <div className="main-menu__phone-number">
-                    <p>Call Anytime</p>
-                    <a href="tel:92 666 888 0000">92 666 888 0000</a>
+                    <p>Fala connosco</p>
+                    <a href="tel:210 16 16 16">210 16 16 16</a>
                   </div>
                 </div>
                 <Link href="/causes-details">
                   <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
+                    <i className="fa fa-heart"></i>Doar
                   </a>
                 </Link>
               </div>

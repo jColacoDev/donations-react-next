@@ -30,7 +30,7 @@ const ContactForm = () => {
         <Row>
           <Col xl={6}>
             <div className="contact-page__input-box">
-              <input type="email" placeholder="Email address" name="email" />
+              <input type="email" placeholder="Email" name="email" />
             </div>
           </Col>
           <Col xl={6}>
@@ -50,7 +50,7 @@ const ContactForm = () => {
               <textarea name="message" placeholder="Write message"></textarea>
             </div>
             <button type="submit" className="thm-btn contact-page__btn">
-              <i className="fas fa-arrow-circle-right"></i>Send a Message
+              <i className="fas fa-arrow-circle-right"></i>Enviar Mensagem
             </button>
           </Col>
         </Row>

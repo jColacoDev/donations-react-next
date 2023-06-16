@@ -5,8 +5,9 @@ import context from "./context";
 const ContextProvider = ({ children }) => {
   const [menuStatus, setMenuStatus] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
-
-  const { pathname } = useRouter();
+  const [isKiosk, setIsKiosk] = useState(false);
+  const { pathname, query } = useRouter();
+  const router = useRouter();
 
   const toggleMenu = (value) => {
     setMenuStatus((preMenuStatus) =>
@@ -17,6 +18,9 @@ const ContextProvider = ({ children }) => {
         : !!value
     );
   };
+  const toggleKiosk = () => {
+    setIsKiosk((prevKiosk) => !prevKiosk);
+  };
 
   const toggleSearch = () => {
     setOpenSearch((preSearch) => !preSearch);
@@ -24,13 +28,24 @@ const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     toggleMenu(false);
-  }, [pathname]);
+
+    const { kiosk } = query;
+    if(kiosk === "true"){
+      setIsKiosk(true);
+      router.push("/causes");
+    }
+  }, [pathname, query]);
+
+
 
   const value = {
+    isKiosk,
+    toggleKiosk,
     menuStatus,
     openSearch,
     toggleMenu,
     toggleSearch,
+    isKiosk
   };
   return <context.Provider value={value}>{children}</context.Provider>;
 };

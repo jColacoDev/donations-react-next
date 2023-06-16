@@ -1,8 +1,11 @@
+import context from "@/context/context";
 import bg from "@/images/backgrounds/page-header-bg-1-1.jpg";
 import Link from "next/link";
-import React from "react";
+import React, { useContext } from "react";
 
 const PageHeader = ({ pageTitle = "" }) => {
+  const { isKiosk } = useContext(context);
+
   return (
     <section className="page-header">
       <div
@@ -12,10 +15,12 @@ const PageHeader = ({ pageTitle = "" }) => {
       <div className="container">
         <h2>{pageTitle}</h2>
         <ul className="thm-breadcrumb list-unstyled">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li className="color-thm-gray">/</li>
+          {!isKiosk && <>
+            <li>
+              <Link href="/">Início </Link>
+            </li>
+            <li className="color-thm-gray">/</li>
+          </>}
           <li>
             <span>{pageTitle}</span>
           </li>

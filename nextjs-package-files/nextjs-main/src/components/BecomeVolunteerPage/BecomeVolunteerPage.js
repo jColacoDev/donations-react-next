@@ -46,8 +46,8 @@ const BecomeVolunteerPage = () => {
                   <span className="icon-chat"></span>
                 </div>
                 <div className="become-volunteer-page__phone-text">
-                  <p>Call Anytime</p>
-                  <a href="tel:92 666 888 0000">92 666 888 0000</a>
+                  <p>Fala connosco</p>
+                  <a href="tel:210 16 16 16">210 16 16 16</a>
                 </div>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import React from "react";
 import ContextProvider from "@/context/ContextProvider";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/vendors/halpes-icons/style.css";

@@ -10,8 +10,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <Layout pageTitle="About">
-      <PageHeader pageTitle="About" />
+    <Layout pageTitle="Sobre Nós">
+      <PageHeader pageTitle="Sobre Nós" />
       <AboutPage />
       <TestimonialOne className="about-page-testimonial" />
       <JoinOne className="join-one__about" />

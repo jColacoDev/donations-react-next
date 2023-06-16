@@ -18,7 +18,7 @@ const Volunteer = () => {
               </div>
               <div className="become-volunteer__btn-box">
                 <a href="#" className="become-volunteer__btn thm-btn">
-                  <i className="fas fa-arrow-circle-right"></i>Learn More
+                  <i className="fas fa-arrow-circle-right"></i>Saber Mais
                 </a>
               </div>
             </div>

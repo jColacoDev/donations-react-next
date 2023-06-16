@@ -22,10 +22,6 @@
     line-height: 49px;
   }
 
-  .welcome-one__heart-icon {
-    bottom: 0;
-  }
-
   .helping-one__left {
     margin-right: 0;
   }
@@ -1217,10 +1213,6 @@
     display: none;
   }
 
-  .main-slider__shape-1 {
-    display: none;
-  }
-
   .main-slider__counter {
     display: none;
   }
@@ -1355,12 +1347,6 @@
     display: none;
   }
 
-  .main-header-two__logo {
-    width: 100%;
-    float: none;
-    max-width: none;
-  }
-
   .main-menu-three__inner-upper {
     width: 34%;
     padding: 32px 0;
@@ -1402,12 +1388,6 @@
 
   .main-header-two__contact-info {
     display: none;
-  }
-
-  .main-header-two__logo {
-    width: 100%;
-    float: none;
-    max-width: none;
   }
 
   .main-menu__right-social {

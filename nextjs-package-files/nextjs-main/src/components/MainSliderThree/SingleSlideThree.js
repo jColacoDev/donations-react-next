@@ -29,7 +29,7 @@ const SingleSlideThree = ({ singleSlide = {} }) => {
                 ))}
               </h2>
               <a href={href} className="thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Saber Mais
               </a>
               <div className="main-slider-three-shape">
                 <Image

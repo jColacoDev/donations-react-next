@@ -45,7 +45,7 @@ const EventsOne = () => {
                 but the majority have suffered.
               </p>
               <a href="#" className="events-one__btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Saber Mais
               </a>
             </div>
           </Col>

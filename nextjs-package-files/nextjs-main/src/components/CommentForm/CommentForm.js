@@ -27,7 +27,7 @@ const CommentForm = () => {
           </Col>
           <Col xl={6}>
             <div className="comment-form__input-box">
-              <input type="email" placeholder="Email address" name="email" />
+              <input type="email" placeholder="Email" name="email" />
             </div>
           </Col>
         </Row>

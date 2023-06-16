@@ -33,7 +33,7 @@ const HeaderThree = () => {
               <div className="main-menu-three__btn">
                 <Link href="/causes-details">
                   <a className="main-menu-three__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
+                    <i className="fa fa-heart"></i>Doar
                   </a>
                 </Link>
               </div>

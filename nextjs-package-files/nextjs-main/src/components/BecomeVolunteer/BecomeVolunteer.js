@@ -20,7 +20,7 @@ const BecomeVolunteer = () => {
               <div className="become-volunteer__btn-box">
                 <Link href="/volunteer">
                   <a className="become-volunteer__btn thm-btn">
-                    <i className="fas fa-arrow-circle-right"></i>Learn More
+                    <i className="fas fa-arrow-circle-right"></i>Saber Mais
                   </a>
                 </Link>
               </div>

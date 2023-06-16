@@ -3,7 +3,7 @@ const causesData = [
     id: 1,
     image: "causes-one-img-1.jpg",
     category: "Medical",
-    title: "Raise Fund for Clean & Healthy Water",
+    title: "Raise Fund for Clean & Healthy Water2",
     description:
       "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
     raised: "25,270",

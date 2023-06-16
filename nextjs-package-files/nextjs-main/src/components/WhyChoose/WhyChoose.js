@@ -87,7 +87,7 @@ const WhyChoose = () => {
                 </div>
                 <Link href="/causes-details">
                   <a className="why-choose__right-btn">
-                    <i className="fa fa-heart"></i>Donate
+                    <i className="fa fa-heart"></i>Doar
                   </a>
                 </Link>
                 <div className="why-choose__right-category">

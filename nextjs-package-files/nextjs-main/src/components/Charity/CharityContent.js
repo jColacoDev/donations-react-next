@@ -87,7 +87,7 @@ const CharityContent = () => {
           ))}
         </div>
         <a href="#" className="welcome-one__btn thm-btn">
-          <i className="fas fa-arrow-circle-right"></i>Learn More
+          <i className="fas fa-arrow-circle-right"></i>Saber Mais
         </a>
       </div>
     </Col>
