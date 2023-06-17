@@ -1,6 +1,6 @@
-import image1 from "@/images/events-one-img-1.jpg";
-import image2 from "@/images/events-one-img-2.jpg";
-import image3 from "@/images/events-one-img-3.jpg";
+import image1 from "@/images/resources/events-one-img-1.jpg";
+import image2 from "@/images/resources/events-one-img-2.jpg";
+import image3 from "@/images/resources/events-one-img-3.jpg";
 
 const events = [
 {

@@ -14,6 +14,7 @@ const Layout = ({ children, pageTitle }) => {
   const { menuStatus } = useRootContext();
   const { scrollTop } = useScroll(70);
   const [smileyState, setSmileyState] = useState("rest");
+  let blinkTimer, activityTimer;
 
   useEffect(() => {
     setTimeout(() => {
@@ -22,14 +23,14 @@ const Layout = ({ children, pageTitle }) => {
   }, []);
 
   useEffect(() => {
-    const blinkTimer = setInterval(() => {
+    blinkTimer = setInterval(() => {
       setSmileyState("blink");
       setTimeout(() => {
         setSmileyState("rest");
       }, 2000);
     }, 5000);
 
-    const activityTimer = setTimeout(() => {
+    activityTimer = setTimeout(() => {
       setSmileyState("sleep");
     }, 30000);
 

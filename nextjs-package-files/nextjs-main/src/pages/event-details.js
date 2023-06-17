@@ -5,8 +5,8 @@ import React from "react";
 
 const EventDetails = () => {
   return (
-    <Layout pageTitle="Events Details">
-      <PageHeader pageTitle="Events Details" />
+    <Layout pageTitle="Evento">
+      <PageHeader pageTitle="Evento" />
       <EventsDetailsPage />
     </Layout>
   );

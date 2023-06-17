@@ -37,7 +37,7 @@ const Sidebar = () => {
                   <a href="#" className="sidebar__post-content_meta">
                     <i className="far fa-user-circle"></i>by {admin}
                   </a>
-                  <a href="news-details.html">{title}</a>
+                  <a href="#">{title}</a>
                 </h3>
               </div>
             </li>
