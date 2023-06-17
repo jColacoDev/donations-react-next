@@ -43,7 +43,7 @@ const navItems = [
       { id: 1, name: "Sobre nós", href: "/about" },
       { id: 2, name: "Voluntários", href: "/volunteers" },
       { id: 3, name: "Galeria", href: "/gallery" },
-      { id: 4, name: "Torna-te Voluntário", href: "/become-volunteer" },
+      { id: 4, name: "Torne-se Voluntário", href: "/become-volunteer" },
     ],
   },
   {
@@ -66,7 +66,7 @@ const navItems = [
   },
   {
     id: 5,
-    name: "Novidades",
+    name: "Noticias",
     href: "/news",
     subNavItems: [
       // { id: 1, name: "News", href: "/news" },

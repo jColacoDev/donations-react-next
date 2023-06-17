@@ -1,4 +1,4 @@
-import image from "@/images/resources/contact-page-img-1.jpg";
+import image from "@/images/resources/voz.jpg";
 
 export const contact = {
   tel: "210 16 16 16",
@@ -10,7 +10,7 @@ const contactData = {
   ...contact,
   image,
   description:
-    "There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words even slightly believable.",
+    "Estamos disponíveis para responder a todas as suas perguntas e fornecer o apoio necessário. Entre em contato conosco para obter informações, sugestões ou colaborações. Agradecemos o seu interesse e aguardamos o seu contato.",
 };
 
 export default contactData;

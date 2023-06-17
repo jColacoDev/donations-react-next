@@ -89,7 +89,7 @@ const HeaderOne = () => {
                     <span className="icon-chat"></span>
                   </div>
                   <div className="main-menu__phone-number">
-                    <p>Fala connosco</p>
+                    <p>Fale connosco</p>
                     <a href="tel:210 16 16 16">210 16 16 16</a>
                   </div>
                 </div>

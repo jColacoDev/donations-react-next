@@ -10,10 +10,10 @@ const TeamOne = ({ className = "" }) => {
         {!className && (
           <div className="section-title text-center">
             <span className="section-title__tagline">
-              Professional Volunteers
+              Voluntários Profissionais
             </span>
             <h2 className="section-title__title">
-              Meet the best team behind <br /> our success story
+              Conheça a equipa por trás <br /> do nosso sucesso
             </h2>
           </div>
         )}

@@ -9,9 +9,9 @@ const BecomeVolunteerPage = () => {
     <section className="become-volunteer-page">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Register Now</span>
+          <span className="section-title__tagline">Registe-se Agora</span>
           <h2 className="section-title__title">
-            Let’s join our community to <br /> become a volunteer
+            Vamos nos juntar à nossa comunidade <br /> torne-se um Voluntário
           </h2>
         </div>
         <Row>
@@ -20,14 +20,9 @@ const BecomeVolunteerPage = () => {
               <div className="become-volunteer-page__img">
                 <Image src={image.src} alt="" />
               </div>
-              <h3 className="become-volunteer-page__title">Requirements</h3>
+              <h3 className="become-volunteer-page__title">Requisitos</h3>
               <p className="become-volunteer-page__text">
-                Aliquam hendrerit a augue insu image pellentes que id erat quis
-                sollicitud null mattis Ipsum is simply dummy typesetting
-                industry. Alienum phaedrum torquatos nec eu, vis detraxit
-                periculis ex, nihil expetendis in meifn pericula euripidis, hinc
-                partem ei est. Eos ei nisl graecis, aperiri consequat anlorem
-                tincidun.
+              Os requisitos para ser voluntário são simples, mas essenciais. É necessário ter vontade de ajudar, empatia para se colocar no lugar do outro e disponibilidade de tempo. Não importa a idade, a experiência ou a formação, o que realmente importa é o coração aberto e a dedicação para fazer a diferença na vida das pessoas que mais precisam. Junte-se a nós e seja parte dessa transformação social!
               </p>
               <ul className="become-volunteer-page__list list-unstyled">
                 {becomeVolunteerList.map((item, index) => (
@@ -46,7 +41,7 @@ const BecomeVolunteerPage = () => {
                   <span className="icon-chat"></span>
                 </div>
                 <div className="become-volunteer-page__phone-text">
-                  <p>Fala connosco</p>
+                  <p>Fale connosco</p>
                   <a href="tel:210 16 16 16">210 16 16 16</a>
                 </div>
               </div>

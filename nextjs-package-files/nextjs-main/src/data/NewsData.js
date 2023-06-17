@@ -9,7 +9,7 @@ const newsData = [
     href: "/news-details",
     date: "20 Jan, 2021",
     comments: 2,
-    title: "How Does Malnutrition Affect Children?",
+    title: "Comunidade une-se para combater a fome na região",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const newsData = [
     href: "/news-details",
     date: "20 Jan, 2021",
     comments: 2,
-    title: "Capitalize on low hanging fruit to identify",
+    title: "Doação de roupas aquece o inverno de famílias carentes",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const newsData = [
     href: "/news-details",
     date: "20 Jan, 2021",
     comments: 2,
-    title: "Override the digital divide with additional",
+    title: "Projecto de educação infantil recebe apoio de voluntários",
   },
 ];
 

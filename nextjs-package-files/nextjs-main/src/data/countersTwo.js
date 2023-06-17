@@ -2,22 +2,22 @@ const countersTwo = [
   {
     id: 1,
     icon: "icon-fast-food",
-    title: "Healthy Food",
+    title: "Comida Saudável",
   },
   {
     id: 2,
     icon: "icon-water",
-    title: "Clean Water",
+    title: "Água Limpa",
   },
   {
     id: 3,
     icon: "icon-health-check",
-    title: "Medical Treatment",
+    title: "Tratamento Médico",
   },
   {
     id: 4,
     icon: "icon-cheque",
-    title: "Child Education",
+    title: "Educação Infantil",
   },
 ];
 

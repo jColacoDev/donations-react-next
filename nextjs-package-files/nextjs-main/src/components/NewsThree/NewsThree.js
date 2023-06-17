@@ -8,7 +8,7 @@ const NewsThree = () => {
     <section className="news-two news-three">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Get Daily Updates</span>
+          <span className="section-title__tagline">Actualizações Diárias</span>
           <h2 className="section-title__title">
             Latest news & articles directly <br /> coming from the blog
           </h2>

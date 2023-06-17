@@ -5,8 +5,8 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <Layout pageTitle="Gallery">
-      <PageHeader pageTitle="Gallery" />
+    <Layout pageTitle="Galeria">
+      <PageHeader pageTitle="Galeria" />
       <GalleryPage />
     </Layout>
   );

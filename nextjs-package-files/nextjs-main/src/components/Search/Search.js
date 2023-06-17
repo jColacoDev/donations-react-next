@@ -19,13 +19,13 @@ const Search = () => {
       <div className="search-popup__content">
         <form onSubmit={handleSearch}>
           <label htmlFor="search" className="sr-only">
-            search here
+            procura aqui
           </label>
           <input
             type="text"
             name="search"
             id="search"
-            placeholder="Search Here..."
+            placeholder="Procurar..."
           />
           <button type="submit" aria-label="search submit" className="thm-btn">
             <i className="icon-magnifying-glass"></i>

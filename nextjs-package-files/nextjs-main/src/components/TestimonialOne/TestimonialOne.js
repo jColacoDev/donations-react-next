@@ -38,9 +38,9 @@ const TestimonialOne = ({ className = "" }) => {
           <Col xl={4}>
             <div className="testimonial-one__left">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Testimonials</span>
+                <span className="section-title__tagline">Testemunhos</span>
                 <h2 className="section-title__title">
-                  What they’re talking about charity
+                  O que eles dizem de Nós
                 </h2>
               </div>
             </div>

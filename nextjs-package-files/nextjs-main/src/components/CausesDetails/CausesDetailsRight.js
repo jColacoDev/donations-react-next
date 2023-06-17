@@ -4,38 +4,38 @@ import { Image } from "react-bootstrap";
 
 const donations = [
   {
-    id: 1,
-    image: "recent-donation-img-1.jpg",
-    amount: 20,
-    name: "David Marks",
-    time: "3 hours ago",
-    text: "God bless you dear",
+  id: 1,
+  image: "recent-donation-img-1.jpg",
+  amount: 20,
+  name: "David Silva",
+  time: "Há 3 horas",
+  text: "Muito obrigado, que Deus o abençoe!",
   },
   {
-    id: 2,
-    image: "recent-donation-img-2.jpg",
-    amount: 60,
-    name: "Jessica Rose",
-    time: "6 hours ago",
-    text: "God bless you dear",
+  id: 2,
+  image: "recent-donation-img-2.jpg",
+  amount: 60,
+  name: "Jessica Rosa",
+  time: "Há 6 horas",
+  text: "Muito obrigado, que Deus a abençoe!",
   },
   {
-    id: 3,
-    image: "recent-donation-img-3.jpg",
-    amount: 30,
-    name: "Kevim Martin",
-    time: "1 day ago",
-    text: "God bless you dear",
+  id: 3,
+  image: "recent-donation-img-3.jpg",
+  amount: 30,
+  name: "Kevin Martins",
+  time: "Há 1 dia",
+  text: "Muito obrigado, que Deus o abençoe!",
   },
   {
-    id: 4,
-    image: "recent-donation-img-4.jpg",
-    amount: 180,
-    name: "Anonymous",
-    time: "1 day ago",
-    text: "God bless you dear",
+  id: 4,
+  image: "recent-donation-img-4.jpg",
+  amount: 180,
+  name: "Anónimo",
+  time: "Há 1 dia",
+  text: "Muito obrigado, que Deus o abençoe!",
   },
-];
+  ];
 
 const CausesDetailsRight = () => {
   return (
@@ -45,22 +45,25 @@ const CausesDetailsRight = () => {
           <Image src={organizer.src} alt="" />
         </div>
         <div className="causes-details__organizer-content">
-          <p>Created 20 Jan, 2021</p>
+          <p>Criado 20 Jan, 2021</p>
           <h5>
-            Organizer: <span>Jessica Smith</span>
+            Organização: <span>Jessica Smith</span>
           </h5>
           <ul className="causes-details__organizer-list list-unstyled">
             <li>
-              <i className="fas fa-map-marker-alt"></i>Education
+              <i className="fas fa-map-marker-alt"></i>Alimentação
             </li>
             <li>
-              <i className="fas fa-map-marker-alt"></i>Wrightwood, Canada
+              <i className="fas fa-map-marker-alt"></i>Social
+            </li>
+            <li>
+              <i className="fas fa-map-marker-alt"></i>Portugal
             </li>
           </ul>
         </div>
       </div>
       <div className="causes-details__donations">
-        <h3 className="causes-details__donations-title">Recent Donations</h3>
+        <h3 className="causes-details__donations-title">Doações Recentes</h3>
         <ul className="list-unstyled causes-details__donations-list">
           {donations.map(({ id, amount, image, name, text, time }) => (
             <li key={id}>
@@ -71,7 +74,7 @@ const CausesDetailsRight = () => {
                 />
               </div>
               <div className="causes-details__donations-content">
-                <h4>${amount}</h4>
+                <h4>€{amount}</h4>
                 <h5>
                   {name} <span>{time}</span>
                 </h5>

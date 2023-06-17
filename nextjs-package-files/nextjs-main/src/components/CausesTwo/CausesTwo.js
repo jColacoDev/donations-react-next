@@ -36,9 +36,9 @@ const CausesTwo = () => {
     <section className="causes-two">
       <div className="container-box">
         <div className="section-title text-center">
-          <span className="section-title__tagline">Latest Causes</span>
+          <span className="section-title__tagline">Ultimas Causas</span>
           <h2 className="section-title__title">
-            Find the popular cause <br /> and donate them
+            Escolha a sua causa <br /> e faça a sua doação!
           </h2>
         </div>
         <Row>

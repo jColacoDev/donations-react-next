@@ -5,8 +5,8 @@ import React from "react";
 
 const NewsDetails = () => {
   return (
-    <Layout pageTitle="News Details">
-      <PageHeader pageTitle="News Details" />
+    <Layout pageTitle="Noticia">
+      <PageHeader pageTitle="Noticia" />
       <NewsDetailsPage />
     </Layout>
   );

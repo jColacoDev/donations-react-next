@@ -32,7 +32,7 @@ const HeaderTwo = () => {
                       <span className="icon-chat"></span>
                     </div>
                     <div className="main-header-two__contact-text">
-                      <p>Fala connosco</p>
+                      <p>Fale connosco</p>
                       <a href="tel:210 16 16 16">210 16 16 16</a>
                     </div>
                   </li>
@@ -41,7 +41,7 @@ const HeaderTwo = () => {
                       <span className="icon-message"></span>
                     </div>
                     <div className="main-header-two__contact-text">
-                      <p>Envia Email</p>
+                      <p>Envie Email</p>
                       <a href="mailto:missao.sorriso@sonaemc.com">
                         missao.sorriso@sonaemc.com
                       </a>
@@ -52,7 +52,7 @@ const HeaderTwo = () => {
                       <span className="icon-address"></span>
                     </div>
                     <div className="main-header-two__contact-text">
-                      <p>Visita-nos</p>
+                      <p>Visite-nos</p>
                       <h5>8Via Norte Espido, Maia</h5>
                     </div>
                   </li>

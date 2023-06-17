@@ -19,7 +19,7 @@ const CountersTwo = () => {
             <div className="counters-two__left">
               <div className="section-title text-left">
                 <span className="section-title__tagline">
-                  Get Daily Updates
+                Actualizações Diárias
                 </span>
                 <h2 className="section-title__title">
                   Check what make us different than others

@@ -15,7 +15,7 @@ const AboutPage = () => {
                 <Image src={image.src} alt="" />
                 <div className="about-page__trusted">
                   <h3>
-                    We’re trusted by <span>9,8750</span> donors
+                    <span>2,8750</span> Doadores Confiam!
                   </h3>
                 </div>
               </div>
@@ -24,20 +24,16 @@ const AboutPage = () => {
           <Col xl={6}>
             <div className="about-page__right">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Inroductions</span>
+                <span className="section-title__tagline">A Nossa Apresentação</span>
                 <h2 className="section-title__title">
-                  We believe that we can save more lifes
+                 Nós acreditamos em todas as crianças
                 </h2>
               </div>
               <p className="about-page__right-text">
-                We are trusted by our clients and have a reputation for the best
-                services in the field. Lorem ipsum is simply free text dolor sit
-                amett consectetur adipiscing elit. It is a long established fact
-                that a reader will be distracted by the readable content of a
-                page.
+              No Kiosk Solidário, acreditamos no potencial de todas as crianças. Por isso, trabalhamos para garantir que elas tenham acesso a alimentos, educação e cuidados necessários. Junte-se a nós nessa missão de transformar vidas e construir um futuro melhor.
               </p>
               <h3 className="about-page__right-title">
-                Halpes is the largest global crowdfunding community in the world
+                O Kiosk Solidário é um ponto de dar e receber
               </h3>
               <div className="about-five__progress-wrap">
                 {aboutProgress.map((progress) => (

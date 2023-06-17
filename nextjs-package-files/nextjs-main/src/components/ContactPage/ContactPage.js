@@ -10,9 +10,10 @@ const ContactPage = () => {
     <section className="contact-page">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Contact With Us</span>
+          <span className="section-title__tagline">Contacte-nos</span>
           <h2 className="section-title__title">
-            We love to hear from our <br /> happy customers
+          Adoramos ouvir e conversar com você! <br/> 
+          Ficaremos muito felizes com o seu contato. Estamos aqui para ajudar!
           </h2>
         </div>
         <Row>
@@ -29,7 +30,7 @@ const ContactPage = () => {
                       <span className="icon-chat"></span>
                     </div>
                     <div className="text">
-                      <p>Fala connosco</p>
+                      <p>Fale connosco</p>
                       <a href={`tel:${tel}`}>{tel}</a>
                     </div>
                   </li>
@@ -38,7 +39,7 @@ const ContactPage = () => {
                       <span className="icon-message"></span>
                     </div>
                     <div className="text">
-                      <p>Envia Email</p>
+                      <p>Envie Email</p>
                       <a href={`mailto:${email}`}>{email}</a>
                     </div>
                   </li>
@@ -47,7 +48,7 @@ const ContactPage = () => {
                       <span className="icon-address"></span>
                     </div>
                     <div className="text">
-                      <p>Visita-nos</p>
+                      <p>Visite-nos</p>
                       <h5>{officeAddress}</h5>
                     </div>
                   </li>

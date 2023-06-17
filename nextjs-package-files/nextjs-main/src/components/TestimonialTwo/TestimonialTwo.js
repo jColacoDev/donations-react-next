@@ -8,7 +8,7 @@ const TestimonialTwo = () => {
     <section className="testimonial-two">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Our Testimonials</span>
+          <span className="section-title__tagline">Testemunhos</span>
           <h2 className="section-title__title">
             What they’re talking <br /> about charity
           </h2>

@@ -33,7 +33,7 @@ const SingleNews = ({ news = {} }) => {
             </li>
             <li>
               <a href="#">
-                <i className="far fa-comments"></i> {comments} Comments
+                <i className="far fa-comments"></i> {comments} Comentários
               </a>
             </li>
           </ul>

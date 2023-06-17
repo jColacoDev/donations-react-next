@@ -14,7 +14,7 @@ const CommentForm = () => {
 
   return (
     <div className="comment-form">
-      <h3 className="comment-form__title">Leave a Comment</h3>
+      <h3 className="comment-form__title">Deixe um Comentário</h3>
       <form
         onSubmit={handleSubmit}
         className="comment-one__form contact-form-validated"
@@ -22,7 +22,7 @@ const CommentForm = () => {
         <Row>
           <Col xl={6}>
             <div className="comment-form__input-box">
-              <input type="text" placeholder="Your name" name="name" />
+              <input type="text" placeholder="Nome" name="name" />
             </div>
           </Col>
           <Col xl={6}>
@@ -34,10 +34,10 @@ const CommentForm = () => {
         <Row>
           <Col xl={12}>
             <div className="comment-form__input-box">
-              <textarea name="message" placeholder="Write message"></textarea>
+              <textarea name="message" placeholder="Mensagem"></textarea>
             </div>
             <button type="submit" className="thm-btn comment-form__btn">
-              <i className="fas fa-arrow-circle-right"></i>Submit Comment
+              <i className="fas fa-arrow-circle-right"></i>Enviar Comentário
             </button>
           </Col>
         </Row>

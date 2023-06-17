@@ -16,8 +16,8 @@ const JoinOne = ({ className = "" }) => {
           <Col xl={12}>
             <div className="join-one__inner">
               <h2 className="join-one__title">
-                Join the community to give <br />
-                education for children
+                Junte-se à comunidade <br />
+                ofereça educação e cuidados
               </h2>
               <a href="#" className="join-one__btn thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Saber Mais

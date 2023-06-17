@@ -1,9 +1,8 @@
 const becomeVolunteerList = [
-  "Making this first true generator simply text",
-  "Many desktop publish packages nothing",
-  "Lorem Ipsum is not simply free text",
-  "If you are going to passage",
-  "It has roots in a piece",
+  "Voluntários comprometidos em fazer a diferença.",
+  "Pessoas solidárias e empáticas para se juntarem a nós.",
+  "Valorizamos disponibilidade e vontade de ajudar.",
+  "Colaboradores que possam dedicar seu tempo para causas sociais."
 ];
 
 export default becomeVolunteerList;

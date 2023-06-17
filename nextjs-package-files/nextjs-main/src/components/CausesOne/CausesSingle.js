@@ -65,10 +65,10 @@ const CausesSingle = ({ cause = {}, causePage }) => {
           </ReactVisibilitySensor>
           <div className="causes-one__goals">
             <p>
-              <span>${raised}</span> Raised
+              <span>€{raised}</span> Obtido
             </p>
             <p>
-              <span>${goal}</span> Goal
+              <span>€{goal}</span> Meta
             </p>
           </div>
         </div>

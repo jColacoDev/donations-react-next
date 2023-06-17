@@ -12,17 +12,16 @@ const NewsOne = () => {
         <Row>
           <Col xl={8} lg={8}>
             <div className="section-title text-left">
-              <span className="section-title__tagline">Get Daily Updates</span>
+              <span className="section-title__tagline">Actualizações Diárias</span>
               <h2 className="section-title__title">
-                Latest news & articles directly <br />
-                coming from the blog
+                As ultimas noticias & artigos directamente do blog
               </h2>
             </div>
           </Col>
           <Col xl={4} lg={4}>
             <div className="news-one__button-box">
               <a href="#" className="news-one__btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>View More
+                <i className="fas fa-arrow-circle-right"></i>Ver Mais
               </a>
             </div>
           </Col>
@@ -45,12 +44,12 @@ const NewsOne = () => {
                     <span>/</span>
                   </li>
                   <li>
-                    <a href="#">2 Comments</a>
+                    <a href="#">2 Comentários</a>
                   </li>
                 </ul>
                 <h3 className="news-one__title">
                   <Link href="/news-details">
-                    <a>Donation is Hope for Poor Childrens in Africa</a>
+                    <a>Doações são a esperança para as crianças este Natal</a>
                   </Link>
                 </h3>
               </div>

@@ -1,9 +1,8 @@
-import bg from "@/images/resources/three-boxes-img-1.jpg";
 import React from "react";
 import { Col } from "react-bootstrap";
 
 const SingleBox = ({ singleBox }) => {
-  const { icon, title, className } = singleBox;
+  const { icon, title, bg, content, className } = singleBox;
 
   return (
     <Col xl={4}>
@@ -19,8 +18,7 @@ const SingleBox = ({ singleBox }) => {
           <div className="three-boxes__text-box">
             <h2>{title}</h2>
             <p className="three-boxes__text">
-              Lorem ipsum is simply free text available amet, consectetuer
-              adipiscing elit. There are not many passages of ipsum.
+              {content}
             </p>
             <a href="#" className="three-boxes__btn">
               <i className="fa fa-heart"></i>Doar{" "}

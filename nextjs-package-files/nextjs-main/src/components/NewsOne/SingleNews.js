@@ -22,7 +22,7 @@ const SingleNews = ({ news = {} }) => {
             <span>/</span>
           </li>
           <li>
-            <a href="#">{comments} Comments</a>
+            <a href="#">{comments} Comentários</a>
           </li>
         </ul>
         <h3 className="news-one__right-title">

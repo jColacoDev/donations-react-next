@@ -2,12 +2,12 @@ const aboutProgress = [
   {
     id: 1,
     percentage: 90,
-    title: "Successful causes",
+    title: "Casos sucesso",
   },
   {
     id: 2,
     percentage: 50,
-    title: "Amazing donors",
+    title: "Voluntários fantásticos",
   },
 ];
 

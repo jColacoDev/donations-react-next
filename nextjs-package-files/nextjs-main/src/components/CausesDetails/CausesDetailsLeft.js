@@ -48,10 +48,10 @@ const CausesDetailsLeft = () => {
           </div>
           <div className="causes-details__goals">
             <p>
-              <span>${raised}</span> Raised
+              <span>€{raised}</span> Obtido
             </p>
             <p>
-              <span>${goal}</span> Goal
+              <span>€{goal}</span> Meta
             </p>
           </div>
         </div>
@@ -115,17 +115,17 @@ const CausesDetailsLeft = () => {
               <Image src={download.src} alt="" />
             </div>
             <div className="text">
-              <h4>Our Presentation</h4>
+              <h4>Ficha Técnica</h4>
             </div>
           </div>
           <div className="causes-details__download-btn-box">
             <a href="#" className="causes-details__download-btn thm-btn">
-              <i className="fas fa-arrow-circle-right"></i>Download Now
+              <i className="fas fa-arrow-circle-right"></i>Download
             </a>
           </div>
         </div>
         <div className="comment-one">
-          <h3 className="comment-one__title">Comments</h3>
+          <h3 className="comment-one__title">Comentários</h3>
           {comments.map((comment) => (
             <SingleComment key={comment.id} comment={comment} />
           ))}

@@ -1144,9 +1144,9 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
-  .three-boxes__single {
+  /* .three-boxes__single {
     padding: 60px 25px 60px;
-  }
+  } */
 
   .three-boxes__text-box h2 {
     font-size: 26px;

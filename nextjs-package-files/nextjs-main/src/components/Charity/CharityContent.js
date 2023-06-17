@@ -5,12 +5,12 @@ import ReactVisibilitySensor from "react-visibility-sensor";
 const countBar = [
   {
     id: 1,
-    title: "Charity",
+    title: "Doações",
     percent: 83,
   },
   {
     id: 2,
-    title: "Donations",
+    title: "Voluntários",
     percent: 38,
   },
 ];
@@ -28,31 +28,29 @@ const CharityContent = () => {
     <Col xl={6} lg={6}>
       <div className="welcome-one__right">
         <div className="section-title text-left">
-          <span className="section-title__tagline">Welcome to Charity</span>
+          <span className="section-title__tagline">Bem-vinda Solidariedade</span>
           <h2 className="section-title__title">
-            Helping each other can make world better
+            Ajudar os outros faz um mundo melhor 
           </h2>
         </div>
         <p className="welcome-one__right-text">
-          Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-          eiusmod tempor incididunt ut labore et simply free text dolore magna
-          aliqua lonm andhn.
+        Ao contribuir através do Kiosk Solidário, você está ajudando a construir um mundo melhor para todos. Cada doação conta e faz a diferença, unindo esforços em prol de causas solidárias e impactando vidas positivamente.
         </p>
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Mission
+              <i className="fas fa-arrow-circle-right"></i>A Nossa Missão 
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              Lorem ipsum dolor sit amet not is consectetur notted.
+            Transformar vidas através de doações solidárias e impacto social.
             </p>
           </div>
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Story
+              <i className="fas fa-arrow-circle-right"></i>A Nossa História
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              Lorem ipsum dolor sit amet not is consectetur notted.
+            Juntos, construímos um legado de solidariedade e ajuda mútua.
             </p>
           </div>
         </div>

@@ -15,14 +15,14 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar__single sidebar__search">
         <form onSubmit={handleSubmit} className="sidebar__search-form">
-          <input name="search" type="search" placeholder="Search" />
+          <input name="search" type="search" placeholder="Procurar..." />
           <button type="submit">
             <i className="icon-magnifying-glass"></i>
           </button>
         </form>
       </div>
       <div className="sidebar__single sidebar__post">
-        <h3 className="sidebar__title">Recent Posts</h3>
+        <h3 className="sidebar__title">Posts Recentes</h3>
         <ul className="sidebar__post-list list-unstyled">
           {postList.map(({ id, title, image, admin }) => (
             <li key={id}>

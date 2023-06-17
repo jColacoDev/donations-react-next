@@ -1,21 +1,21 @@
 const featureOne = [
   {
     id: 1,
-    title: "Become a Volunteer",
+    title: "Torne-se um Voluntário",
     icon: "icon-heart",
-    description: "Lorem ium dolor sit ametad pisicing elit sed do ut.",
+    description: "Faça a diferença na vida das pessoas através do voluntariado.",
   },
   {
     id: 2,
-    title: "Quick Fundrais",
+    title: "Arrecadação Rápida de Fundos",
     icon: "icon-adoption",
-    description: "Lorem ium dolor sit ametad pisicing elit sed do ut.",
+    description: "Realize campanhas de arrecadação de fundos de forma ágil e eficiente.",
   },
   {
     id: 3,
-    title: "Donate Now",
+    title: "Faça uma Doação Agora",
     icon: "icon-donation-1",
-    description: "Lorem ium dolor sit ametad pisicing elit sed do ut.",
+    description: "Contribua imediatamente para causas importantes com uma doação.",
   },
 ];
 

@@ -34,15 +34,15 @@ const CausesThree = () => {
         <div className="causes-three__top">
           <div className="causes-three__top-title">
             <div className="section-title text-left">
-              <span className="section-title__tagline">Latest Causes</span>
+              <span className="section-title__tagline">Ultimas Causas</span>
               <h2 className="section-title__title">
-                Find the popular cause <br /> and donate them
+                Escolha a sua causa <br /> e faça a sua doação!
               </h2>
             </div>
           </div>
           <div className="causes-three__top-btn-box">
             <a href="#" className="causes-three__top-btn thm-btn">
-              <i className="fas fa-arrow-circle-right"></i>View More
+              <i className="fas fa-arrow-circle-right"></i>Ver Mais
             </a>
           </div>
         </div>

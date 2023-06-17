@@ -73,7 +73,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Fala connosco</span>
+                        <span>Fale connosco</span>
                         <a href={`tel:${tel}`}>{tel}</a>
                       </p>
                     </div>
@@ -84,7 +84,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Envia Email</span>
+                        <span>Envie Email</span>
                         <a href={`mailto:${email}`}>{email}</a>
                       </p>
                     </div>
@@ -95,7 +95,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Visita-nos</span>
+                        <span>Visite-nos</span>
                         {officeAddress}
                       </p>
                     </div>
@@ -113,7 +113,7 @@ const SiteFooter = () => {
               <div className="footer-widget__column footer-widget__newsletter">
                 <h3 className="footer-widget__title">Newsletter</h3>
                 <p className="footer-widget__newsletter-text">
-                  Lorem ipsum dolor sit ame consect etur pisicing elit sed do.
+                Receba as últimas noticias e faça a diferença com a nossa newsletter solidária.
                 </p>
                 <form className="footer-widget__newsletter-form">
                   <input

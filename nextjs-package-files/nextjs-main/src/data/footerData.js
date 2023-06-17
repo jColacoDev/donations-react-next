@@ -7,7 +7,7 @@ const footerData = {
   link: "Kiosk Solidário",
   copyrightYear: new Date().getFullYear(),
   about:
-    "Lorem ipsum dolor sit ame consect etur pisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "Uma comunidade unida pela solidariedade e pela transformação social.",
   bottomLogo: footerImage.src,
   footerBg: bg.src,
   social: [
@@ -57,26 +57,6 @@ const footerData = {
       id: 5,
       href: "#",
       title: "Patrocinadores"
-    },
-    {
-      id: 6,
-      href: "#",
-      title: "Angariação de fundos"
-    },
-    {
-      id: 7,
-      href: "#",
-      title: "Contactos"
-    },
-    {
-      id: 8,
-      href: "#",
-      title: "Ajuda"
-    },
-    {
-      id: 9,
-      href: "#",
-      title: "Faqs"
     }
   ]
 };

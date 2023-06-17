@@ -18,8 +18,7 @@ const SingleSlide = ({ slide = {} }) => {
             <div className="main-slider__content">
               <p>{subTitle}</p>
               <h2>
-                {title} <br />
-                in Need
+                {title}
               </h2>
               <a href={href} className="thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Saber Mais

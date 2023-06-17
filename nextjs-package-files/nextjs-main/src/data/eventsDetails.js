@@ -1,26 +1,26 @@
-import image from "@/images/resources/event-details-img-1.jpg";
+import image from "@/images/resources/causes-children.jpg";
 
 const text1 =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
+  "Jogue por um mundo connosco é uma ação social que busca promover a educação infantil, proporcionando oportunidades de aprendizagem e desenvolvimento para crianças carentes. Participe nessa campanha e faça a diferença!";
 const text2 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.";
+  "A nossa missão é garantir que todas as crianças tenham acesso a uma educação de qualidade, independentemente de sua origem ou condição social. Junte-se a nós nessa jornada de transformação!";
 const text3 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
+  "Para participar nessa acção social, não é necessário nenhum requisito específico. Basta ter disposição e vontade de contribuir para um futuro melhor para as crianças.";
 const text4 =
-  "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.";
+  "Se você deseja fazer parte nessa iniciativa ou obter mais informações, entre em contato connosco.";
 
 const eventsDetails = {
   image,
   date1: "20 Jan",
-  title: "Play for the world with us",
+  title: "Jogue por um mundo connosco",
   texts: [text1, text2],
   requirements: [text3, text4],
-  startingTime: "8:00AM to 2:00PM",
-  date: "9 Jan, 2021",
-  category: "Health",
+  startingTime: "8:00 às 14:00",
+  date: "9 Jan, 2024",
+  category: "Educação",
   phone: "92 666 888 0000",
-  website: "Info@event.com",
-  location: "8 Street, San Marcos \n London D29, UK",
+  website: "info@event.com",
+  location: "Aldeia da Luz \n Alentejo, Portugal",
 };
 
 export default eventsDetails;

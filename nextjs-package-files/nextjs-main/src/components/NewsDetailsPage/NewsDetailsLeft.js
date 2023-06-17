@@ -36,7 +36,7 @@ const NewsDetailsLeft = () => {
           </li>
           <li>
             <a href="#">
-              <i className="far fa-comments"></i> {totalComments} Comments
+              <i className="far fa-comments"></i> {totalComments} Comentários
             </a>
           </li>
         </ul>
