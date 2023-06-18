@@ -2,7 +2,6 @@
   "name": "Ksolidario-nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +11,7 @@
   "dependencies": {
     "bootstrap": "5.1.3",
     "jarallax": "^2.0.2",
-    "next": "^12.3.4",
+    "next": "12.1.0",
     "react": "17.0.2",
     "react-bootstrap": "^2.2.0",
     "react-circular-progressbar": "^2.0.4",

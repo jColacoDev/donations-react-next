@@ -122,10 +122,12 @@ h6 {
   font-weight: 900;
   padding: 18.5px 50px;
   transition: 500ms;
+  cursor: pointer;
 }
 
 .thm-btn i {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .thm-btn.selected,
