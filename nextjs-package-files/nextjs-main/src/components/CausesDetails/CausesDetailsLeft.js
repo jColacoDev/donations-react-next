@@ -149,10 +149,10 @@ const CausesDetailsLeft = () => {
           <i className="fas fa-arrow-circle-right"></i>Esc2
         </a>
         <a onClick={()=>setCausePlace(7)} className={`causes-details__share-btn thm-btn ${causePlace == 7 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Merce1
+          <i className="fas fa-arrow-circle-right"></i>Merc1
         </a>
         <a onClick={()=>setCausePlace(8)} className={`causes-details__share-btn thm-btn ${causePlace == 8 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Merce2
+          <i className="fas fa-arrow-circle-right"></i>Merc2
         </a>
         <br/>
         <br/>
