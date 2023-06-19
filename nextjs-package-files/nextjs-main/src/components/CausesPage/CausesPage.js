@@ -7,6 +7,9 @@ const CausesPage = () => {
   return (
     <section className="causes-one causes-page">
       <Container>
+      <a onClick={(e)=>e.preventDefault()} className={`causes-details__share-btn thm-btn criarCampanhaBtn`}>
+        Criar Campanha
+      </a>
         <Row>
           {causesPageData.map((cause) => (
             <Col xl={4} lg={6} md={6} key={cause.id}>

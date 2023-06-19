@@ -46,7 +46,7 @@ const footerData = {
     {
       id: 3,
       href: "#",
-      title: "Missão Sorriso"
+      title: "Kiosk Solidário"
     },
     {
       id: 4,

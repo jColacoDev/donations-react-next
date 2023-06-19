@@ -1,20 +1,20 @@
 import image2 from "@/images/resources/causes-details-1.jpg";
-import image3 from "@/images/resources/causes-refeicao.jpg";
-import image from "@/images/resources/causes-details-2.jpg";
+import image3 from "@/images/resources/causes-children.jpg";
+import image from "@/images/resources/causes-escolar.jpg";
 
 const text1 =
-  "Ao comprar um vale Presentes à Mesa, na sua loja Continente, Continente Modelo, Continente Bom Dia e Continente Online, no valor de 1€ ou 5€ contribuiu para apoiar: Rede Emergência Alimentar e Instituições sociais locais associadas a cada loja Continente ";
+  "Ao comprar um vale Material Escolar para Crianças, na nossa loja online ou através do MBWAY, no valor de 1€ ou 5€, você está a contribuir para apoiar a educação das crianças. O valor arrecadado será utilizado para fornecer materiais escolares essenciais para crianças em situação de vulnerabilidade.";
 const text2 =
-  "O valor de cada vale foi distribuído, em partes iguais, entre a Rede de Emergência Alimentar e as instituições sociais locais selecionadas por cada loja, numa ótica de envolvimento e compromisso com a comunidade local. O total angariado foi entregue na íntegra à Rede de Emergência Alimentar e para as instituições envolvidas. ";
+  "Através dessa iniciativa, buscamos garantir que todas as crianças tenham acesso aos materiais necessários para o seu desenvolvimento educacional. O valor de cada vale adquirido será distribuído de forma equitativa para as instituições parceiras e projetos educacionais que atuam diretamente com crianças em todo o país. Você pode fazer a diferença! Ajude-nos a proporcionar um futuro brilhante para as crianças, comprando na nossa loja online ou enviando sua contribuição através do MBWAY. Juntos, estamos a transformar vidas e a construir um futuro melhor para todos.";
 
 const summaryText =
-  "Agradecemos, profundamente, a confiança de todos os clientes nas nossas causas e o contributo de cada um para o sucesso destas iniciativas. Podermos apoiar a Rede de Emergência Alimentar e 330 instituições, por todo o país, representa a forte ligação que temos e que manteremos com todos os nossos clientes, parceiros e instituições de Portugal.";
+  "Agradecemos sinceramente a confiança de cada doador na nossa causa e o seu valioso contributo para o sucesso desta iniciativa. Por meio da compra do vale Material Escolar para Crianças e das doações realizadas, estamos a fortalecer os laços com a comunidade e a apoiar a educação das crianças em Portugal";
 
 const causesDetails = {
   raised: "642,066,",
   goal: "1,000,000",
-  category: "Alimentação",
-  title: "Presentes à mesa",
+  category: "Educação",
+  title: "Material Escolar para Crianças",
 
   images: [image, image2, image3],
   texts: [text1, text2],

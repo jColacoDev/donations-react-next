@@ -30,6 +30,7 @@ const CausesDetailsLeft = () => {
   const { isKiosk } = useContext(context);
   const [isShop, setIsShop] = useState(false);
   const [shopMode, setShopMode] = useState("store");
+  const [causePlace, setCausePlace] = useState(2);
 
   const handleShopClick = (e) => {
     e.preventDefault();
@@ -126,6 +127,34 @@ const CausesDetailsLeft = () => {
           </div>
       </section>}
       {isShop && <section>
+        <br/>
+        <h3>Escolha onde quer ajudar</h3>
+        <br/>
+        <a onClick={()=>setCausePlace(1)} className={`causes-details__share-btn thm-btn ${causePlace == 1 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Conti 1
+        </a>
+        <a onClick={()=>setCausePlace(2)} className={`causes-details__share-btn thm-btn ${causePlace == 2 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Conti 2
+        </a>
+        <a onClick={()=>setCausePlace(3)} className={`causes-details__share-btn thm-btn ${causePlace == 3 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Conti 3
+        </a>
+        <a onClick={()=>setCausePlace(4)} className={`causes-details__share-btn thm-btn ${causePlace == 4 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Pape 1
+        </a>
+        <a onClick={()=>setCausePlace(5)} className={`causes-details__share-btn thm-btn ${causePlace == 5 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Escola 1
+        </a>
+        <a onClick={()=>setCausePlace(6)} className={`causes-details__share-btn thm-btn ${causePlace == 6 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Escola2
+        </a>
+        <a onClick={()=>setCausePlace(7)} className={`causes-details__share-btn thm-btn ${causePlace == 7 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Merce 1
+        </a>
+        <a onClick={()=>setCausePlace(8)} className={`causes-details__share-btn thm-btn ${causePlace == 8 && "selected"}`}>
+          <i className="fas fa-arrow-circle-right"></i>Merce 2
+        </a>
+        <br/>
         <br/>
         <h3>Escolha como quer ajudar</h3>
         <br/>
