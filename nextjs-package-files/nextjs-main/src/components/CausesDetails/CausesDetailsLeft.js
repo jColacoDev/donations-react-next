@@ -186,7 +186,12 @@ const CausesDetailsLeft = () => {
         }
         {shopMode === "others" &&
           <div className="causes-details__img-box">
-            others
+            Pagamento Continente Pay 
+            <br/>
+            Pagamento Transferência IBAN
+            <br/>
+            Pagamento com Saldo Cartão Continente
+            <br/>
           </div>
         }
         <br/>
