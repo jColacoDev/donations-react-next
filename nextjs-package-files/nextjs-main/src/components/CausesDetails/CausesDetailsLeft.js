@@ -131,28 +131,28 @@ const CausesDetailsLeft = () => {
         <h3>Escolha onde quer ajudar</h3>
         <br/>
         <a onClick={()=>setCausePlace(1)} className={`causes-details__share-btn thm-btn ${causePlace == 1 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Conti 1
+          <i className="fas fa-arrow-circle-right"></i>Conti1
         </a>
         <a onClick={()=>setCausePlace(2)} className={`causes-details__share-btn thm-btn ${causePlace == 2 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Conti 2
+          <i className="fas fa-arrow-circle-right"></i>Conti2
         </a>
         <a onClick={()=>setCausePlace(3)} className={`causes-details__share-btn thm-btn ${causePlace == 3 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Conti 3
+          <i className="fas fa-arrow-circle-right"></i>Conti3
         </a>
         <a onClick={()=>setCausePlace(4)} className={`causes-details__share-btn thm-btn ${causePlace == 4 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Pape 1
+          <i className="fas fa-arrow-circle-right"></i>Pape1
         </a>
         <a onClick={()=>setCausePlace(5)} className={`causes-details__share-btn thm-btn ${causePlace == 5 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Escola 1
+          <i className="fas fa-arrow-circle-right"></i>Esc1
         </a>
         <a onClick={()=>setCausePlace(6)} className={`causes-details__share-btn thm-btn ${causePlace == 6 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Escola2
+          <i className="fas fa-arrow-circle-right"></i>Esc2
         </a>
         <a onClick={()=>setCausePlace(7)} className={`causes-details__share-btn thm-btn ${causePlace == 7 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Merce 1
+          <i className="fas fa-arrow-circle-right"></i>Merce1
         </a>
         <a onClick={()=>setCausePlace(8)} className={`causes-details__share-btn thm-btn ${causePlace == 8 && "selected"}`}>
-          <i className="fas fa-arrow-circle-right"></i>Merce 2
+          <i className="fas fa-arrow-circle-right"></i>Merce2
         </a>
         <br/>
         <br/>
