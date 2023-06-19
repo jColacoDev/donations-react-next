@@ -15,12 +15,10 @@ const PageHeader = ({ pageTitle = "" }) => {
       <div className="container">
         <h2>{pageTitle}</h2>
         <ul className="thm-breadcrumb list-unstyled">
-          {!isKiosk && <>
             <li>
-              <Link href="/">Início </Link>
+              <Link href={!isKiosk ? "/" : "/causes"}>Início </Link>
             </li>
             <li className="color-thm-gray">/</li>
-          </>}
           <li>
             <span>{pageTitle}</span>
           </li>

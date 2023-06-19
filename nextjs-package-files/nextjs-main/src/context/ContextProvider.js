@@ -6,8 +6,12 @@ const ContextProvider = ({ children }) => {
   const [menuStatus, setMenuStatus] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const [isKiosk, setIsKiosk] = useState(false);
-  const { pathname, query } = useRouter();
+  const { pathname, query, push } = useRouter();
   const router = useRouter();
+
+  useEffect(()=>{
+    if(isKiosk) push('/causes');
+  }, [isKiosk])
 
   const toggleMenu = (value) => {
     setMenuStatus((preMenuStatus) =>

@@ -27,7 +27,7 @@ const SiteFooter = () => {
         style={{ backgroundImage: `url(${footerBg})` }}
       ></div>
       <Container>
-        {!isKiosk && <div className="site-footer__top">
+        <div className="site-footer__top">
           <Row>
             <Col xl={3} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
@@ -38,6 +38,8 @@ const SiteFooter = () => {
                 </a>
               </div>
             </Col>
+        {!isKiosk && 
+
             <Col
               xl={3}
               lg={6}
@@ -50,19 +52,21 @@ const SiteFooter = () => {
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
-                      <a href={href}>{title}</a>
+                      <a href={isKiosk ? "#" : href}>{title}</a>
                     </li>
                   ))}
                 </ul>
                 <ul className="footer-widget__explore-list footer-widget__explore-list-two list-unstyled">
                   {exploreList.slice(5).map(({ id, title, href }) => (
                     <li key={id}>
-                      <a href={href}>{title}</a>
+                      <a href={isKiosk ? "#" : href}>{title}</a>
                     </li>
                   ))}
                 </ul>
               </div>
             </Col>
+        }
+
             <Col xl={3} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__contact">
                 <h3 className="footer-widget__title">Contactos</h3>
@@ -74,7 +78,9 @@ const SiteFooter = () => {
                     <div className="text">
                       <p>
                         <span>Fale connosco</span>
-                        <a href={`tel:${tel}`}>{tel}</a>
+                        <a href={!isKiosk && `tel:${tel}`}
+                        
+                        >{tel}</a>
                       </p>
                     </div>
                   </li>
@@ -85,7 +91,7 @@ const SiteFooter = () => {
                     <div className="text">
                       <p>
                         <span>Envie Email</span>
-                        <a href={`mailto:${email}`}>{email}</a>
+                        <a href={!isKiosk && `mailto:${email}`}>{email}</a>
                       </p>
                     </div>
                   </li>
@@ -124,6 +130,7 @@ const SiteFooter = () => {
                   <button
                     type="submit"
                     className="footer-widget__newsletter-btn"
+                    onClick={(e)=>e.preventDefault()}
                   >
                     <i className="fas fa-arrow-circle-right"></i>Enviar
                   </button>
@@ -132,14 +139,13 @@ const SiteFooter = () => {
             </Col>
           </Row>
         </div>
-        }
         <div className="site-footer__bottom">
           <Row>
             <Col xl={12}>
               <div className="site-footer__bottom-inner">
                 <div className="site-footer__bottom-logo-social">
                   <div className="site-footer__bottom-logo">
-                    <Link href="/">
+                    <Link href={isKiosk ? "#" : "/"}>
                       <a>
                         <Image src={bottomLogo} alt="" />
                       </a>
@@ -147,7 +153,7 @@ const SiteFooter = () => {
                   </div>
                   <div className="site-footer__bottom-social">
                     {social.map(({ id, icon, href }) => (
-                      <a href={href} key={id}>
+                      <a href={isKiosk ? "#" : href} key={id}>
                         <i className={`fab ${icon}`}></i>
                       </a>
                     ))}
@@ -159,7 +165,7 @@ const SiteFooter = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href={`https://${link}`}
+                      href={isKiosk ? "#" : `https://${link}`}
                     >
                       {link}
                     </a>

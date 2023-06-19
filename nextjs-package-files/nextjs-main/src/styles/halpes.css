@@ -709,6 +709,11 @@ h6 {
   background-color: var(--thm-black);
 }
 
+.main-header-two__logo button {
+  background-color: transparent;
+  border: none;
+}
+
 .main-header-two__logo {
   width: 100%;
   position: relative;
@@ -1581,6 +1586,7 @@ h6 {
 .main-slider__content {
   position: relative;
   display: block;
+  padding-top: 7em;
 }
 
 .main-slider__shape-1 {

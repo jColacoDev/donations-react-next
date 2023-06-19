@@ -10,64 +10,62 @@ import NavItem from "./NavItem";
 const HeaderTwo = () => {
   const { scrollTop } = useScroll(130);
   const { toggleMenu, toggleSearch } = useRootContext();
-  const { isKiosk } = useContext(context);
+  const { isKiosk, toggleKiosk  } = useContext(context);
 
   return (
     <header className="main-header-two clearfix">
-      {!isKiosk && <>
-        <div className="main-header-two__inner">
-          <Container>
-            <div className="main-header-two__top clearfix">
-              <div className="main-header-two__logo">
-                <Link href="/">
-                  <a>
-                    <Image src={logo.src} alt="" />
+      <div className="main-header-two__inner">
+        <Container>
+          <div className="main-header-two__top clearfix">
+            <div className="main-header-two__logo">
+              <button onClick={toggleKiosk}>
+                  <Image src={logo.src} alt="" />
+              </button>
+            </div>
+            <div className="main-header-two__contact-info">
+              <ul className="main-header-two__contact-list list-unstyled">
+                <li>
+                  <div className="main-header-two__contact-icon">
+                    <span className="icon-chat"></span>
+                  </div>
+                  <div className="main-header-two__contact-text">
+                    <p>Fale connosco</p>
+                    <a href={!isKiosk && "tel:210 16 16 16"}>210 16 16 16</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="main-header-two__contact-icon">
+                    <span className="icon-message"></span>
+                  </div>
+                  <div className="main-header-two__contact-text">
+                    <p>Envie Email</p>
+                    <a href={!isKiosk && "mailto:missao.sorriso@sonaemc.com"}>
+                      missao.sorriso@sonaemc.com
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div className="main-header-two__contact-icon">
+                    <span className="icon-address"></span>
+                  </div>
+                  <div className="main-header-two__contact-text">
+                    <p>Visite-nos</p>
+                    <h5>8Via Norte Espido, Maia</h5>
+                  </div>
+                </li>
+              </ul>
+              <div className="main-header-two__btn">
+                <Link href="/causes-details">
+                  <a className="main-header-two__donate-btn">
+                    <i className="fa fa-heart"></i>Doar{" "}
                   </a>
                 </Link>
               </div>
-              <div className="main-header-two__contact-info">
-                <ul className="main-header-two__contact-list list-unstyled">
-                  <li>
-                    <div className="main-header-two__contact-icon">
-                      <span className="icon-chat"></span>
-                    </div>
-                    <div className="main-header-two__contact-text">
-                      <p>Fale connosco</p>
-                      <a href="tel:210 16 16 16">210 16 16 16</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="main-header-two__contact-icon">
-                      <span className="icon-message"></span>
-                    </div>
-                    <div className="main-header-two__contact-text">
-                      <p>Envie Email</p>
-                      <a href="mailto:missao.sorriso@sonaemc.com">
-                        missao.sorriso@sonaemc.com
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="main-header-two__contact-icon">
-                      <span className="icon-address"></span>
-                    </div>
-                    <div className="main-header-two__contact-text">
-                      <p>Visite-nos</p>
-                      <h5>8Via Norte Espido, Maia</h5>
-                    </div>
-                  </li>
-                </ul>
-                <div className="main-header-two__btn">
-                  <Link href="/causes-details">
-                    <a className="main-header-two__donate-btn">
-                      <i className="fa fa-heart"></i>Doar{" "}
-                    </a>
-                  </Link>
-                </div>
-              </div>
             </div>
-          </Container>
-        </div>
+          </div>
+        </Container>
+      </div>
+    {!isKiosk && <>
         <div className="main-header-two__bottom">
           <nav
             className={

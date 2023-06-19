@@ -9,6 +9,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import CommentForm from "../CommentForm/CommentForm";
 import SingleComment from "./SingleComment";
 import context from "@/context/context";
+import Link from "next/link";
 
 const {
   comments,
@@ -116,6 +117,13 @@ const CausesDetailsLeft = () => {
               </a>
           </div>
         </div>
+          <div className="causes-details__share-btn-box">
+              <Link href="/causes">
+                <a className="causes-details__share-btn thm-btn">
+                  <i className="fas fa-arrow-circle-right"></i>Ver Campanhas
+                </a>
+              </Link>
+          </div>
       </section>}
       {isShop && <section>
         <br/>
@@ -155,7 +163,7 @@ const CausesDetailsLeft = () => {
         <br/>
           <div className="causes-details__share-btn-box">
               <a onClick={handleShopClick} className="causes-details__share-btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Voltar
+                <i className="fas fa-arrow-circle-right"></i>Ver Campanha
               </a>
           </div>
       </section>}
